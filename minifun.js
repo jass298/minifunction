@@ -82,5 +82,15 @@ function countvowels( str){
     console.log(array);
    
    
+   // anonyoms function
    
-   
+let z = function(x,y)
+{
+    let area= x*y ;
+    return area;
+    
+}
+let length = prompt("enter the length"); 
+let width = prompt("enter the width"); 
+
+document.getElementById("output").innerHTML = z(length ,width);
